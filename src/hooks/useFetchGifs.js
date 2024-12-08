@@ -16,11 +16,8 @@ const getImages = async () => {
     getImages();
   }, []);
 
-
   return {
     images,
     isLoading,
   }
 }
-
-export default useFetchGifs 
